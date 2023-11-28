@@ -1,0 +1,11 @@
+"MedID","Med_Name","Company","Manf_year","Exp_date","Quantity_in_stock","Sales"
+1,"Med1","CompanyA",2016,2023,389,11
+2,"Med2","CompanyB",2019,2024,330,33
+3,"Med3","CompanyA",2020,2021,151,48
+4,"Med4","CompanyC",2011,2025,565,97
+5,"Med5","CompanyD",2020,2021,509,95
+6,"Med6","CompanyB",2019,2025,707,47
+7,"Med7","CompanyE",2019,2023,975,92
+8,"Med8","CompanyD",2020,2024,228,81
+9,"Med9","CompanyA",2017,2024,112,89
+10,"Med10","CompanyF",2020,2024,981,37
