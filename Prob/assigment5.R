@@ -1,4 +1,4 @@
-#Q1 a
+1#Q1 a
 l.b<-0
 u.b<-60
 p_greater_45 = punif(45,l.b,u.b,lower.tail=F)
@@ -28,7 +28,7 @@ dexp(3,rate = lambda)
 
 #b
 x_values <- seq(0,5,0.5)
-pdf_values<- dexp(x_values,rate= lambda)()
+pdf_values<- dexp(x_values,rate= lambda)
 plot(x_values,pdf_values,type='l',xlab = 'x',ylab = 'f(x)',main = 'Exponential Probability Distribution')
 
 #c

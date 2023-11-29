@@ -39,10 +39,10 @@ sum(mat)
 
 #iii
 marg_x<-apply(mat, 1, sum)
-
+marg_x
 #iv
 marg_y<-apply(mat,2,sum)
-
+marg_y
 #v
 conditional_prob_x0_y1 = mat[1,2]/marg_y[2]
 conditional_prob_x0_y1
@@ -55,3 +55,13 @@ E_x = sum(x1_values*marg_x)
 E_x
 E_y = sum(y1_values*marg_y)
 E_y
+E_xy <- sum(outer(x1_values,y1_values,'*')*mat )
+E_xy
+Var_x <- sum((x1_values - E_x)^2 * marg_x)
+Var_y <- sum((y1_values - E_y)^2 * marg_y)
+
+Cov_xy <- E_xy - E_x * E_y
+
+correlation_coefficient <- Cov_xy / sqrt(Var_x * Var_y)
+Var_y
+correlation_coefficient
